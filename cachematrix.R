@@ -1,8 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
-
 makeCacheMatrix <- function(x = matrix()) {
   m_inv <- NULL
   get <- function() x
@@ -13,8 +8,6 @@ makeCacheMatrix <- function(x = matrix()) {
        getinv = getinv)
 }
 
-
-## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
   m_inv <- x$getinv()
